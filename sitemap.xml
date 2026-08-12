@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://AneLivB.github.io/ALB/ALB.html</loc>
-    <lastmod>2026-08-12T15:48:37.102Z</lastmod>
-  </url>
-  <url>
-    <loc>https://AneLivB.github.io/ALB/assets/generated/preprints_list.html</loc>
+    <loc>https://AneLivB.github.io/ALB/assets/generated/peer_reviewed_list.html</loc>
     <lastmod>2026-08-12T15:05:40.163Z</lastmod>
   </url>
   <url>
-    <loc>https://AneLivB.github.io/ALB/Publications.html</loc>
-    <lastmod>2026-08-12T15:05:40.026Z</lastmod>
+    <loc>https://AneLivB.github.io/ALB/assets/generated/thesis_list.html</loc>
+    <lastmod>2026-08-12T15:05:40.163Z</lastmod>
+  </url>
+  <url>
+    <loc>https://AneLivB.github.io/ALB/index.html</loc>
+    <lastmod>2026-08-12T15:48:37.102Z</lastmod>
   </url>
   <url>
     <loc>https://AneLivB.github.io/ALB/Illustrations.html</loc>
@@ -21,11 +21,11 @@
     <lastmod>2026-08-12T15:05:40.025Z</lastmod>
   </url>
   <url>
-    <loc>https://AneLivB.github.io/ALB/assets/generated/thesis_list.html</loc>
-    <lastmod>2026-08-12T15:05:40.163Z</lastmod>
+    <loc>https://AneLivB.github.io/ALB/Publications.html</loc>
+    <lastmod>2026-08-12T15:05:40.026Z</lastmod>
   </url>
   <url>
-    <loc>https://AneLivB.github.io/ALB/assets/generated/peer_reviewed_list.html</loc>
+    <loc>https://AneLivB.github.io/ALB/assets/generated/preprints_list.html</loc>
     <lastmod>2026-08-12T15:05:40.163Z</lastmod>
   </url>
 </urlset>
