@@ -23,11 +23,10 @@ format:
 Bielefeld, Germany
 
 <p style="text-align: center; margin: 1.5rem 0;">
-  <a href="assets/pdf/FullacademicCV.pdf" target="_blank" class="btn" role="button" style="background-color: #ffffff; color: #333333; border: 1px solid #cccccc; font-size: 0.85rem; padding: 6px 14px;">
-    <i class="fa-solid fa-file-pdf"></i> Download complete academic CV
-  </a>
-</p>
 
+<a href="assets/pdf/FullacademicCV.pdf" target="_blank" class="btn" role="button" style="background-color: #ffffff; color: #333333; border: 1px solid #cccccc; font-size: 0.85rem; padding: 6px 14px;"> <i class="fa-solid fa-file-pdf"></i> Download complete academic CV </a>
+
+</p>
 :::
 ::::
 :::::
@@ -43,24 +42,23 @@ Hi, I’m **Ane Liv Berthelsen** \[she/her\], a marine biologist working in the 
 
 ------------------------------------------------------------------------
 
-I hold a PhD in molecular and computational biology from the Evolutionary Population Genetics group, [the Hoffman lab](https://thehoffmanlab.com), at Bielefeld University, Germany. My research explored density from the concept of how individuals perceive it to its effects on fitness traits, transcriptomic profiles, predation risk and a broad range of phenotypic traits of Antarctic fur seals (*Arctocephalus gazella*). Thus, I employed a broad range of computational frameworks from bioinformatic pipelines to Bayesian hierarchical modelling. 
+I hold a PhD in molecular and computational biology from the Evolutionary Population Genetics group, [the Hoffman lab](https://thehoffmanlab.com), at Bielefeld University, Germany. My research explored density from the concept of how individuals perceive it to its effects on fitness traits, transcriptomic profiles, predation risk and a broad range of phenotypic traits of Antarctic fur seals (*Arctocephalus gazella*). Thus, I employed a broad range of computational frameworks from bioinformatic pipelines to Bayesian hierarchical modelling.
 
-I am currently wrapping up projects from my PhD investigating the drivers behind phenotypic trait variation in Antarctic fur seals and exploring a pausible link between plasticity and fitness. 
+I am currently wrapping up projects from my PhD investigating the drivers behind phenotypic trait variation in Antarctic fur seals and exploring a pausible link between plasticity and fitness.
 
-I am open for opportunities in **Copenhagen from January 2027**. 
+I am open for opportunities in **Copenhagen from January 2027**.
 :::
 ::::::::
 
-
 ## Education
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2022-2026
 :::
 
 :::: timeline-content
-**PhD in molecular ecology** \| <em>Bielefeld University</em> 
+**PhD in molecular ecology** \| <em>Bielefeld University</em>
 
 ::: timeline-desc
 Defended 12.06.2026 (<strong>Magna cum laude</strong>)
@@ -70,7 +68,7 @@ Defended 12.06.2026 (<strong>Magna cum laude</strong>)
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2020-2021
 :::
@@ -84,7 +82,7 @@ Performed DNA extractions & PCR • Developed PhD project with Prof. Dr. Joseph 
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2018-2020
 :::
@@ -100,7 +98,7 @@ Exchange semester: "Biodiversity and Ecosystem Management” \| *Camerino Univer
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2015-2018
 :::
@@ -116,7 +114,7 @@ Exchange semester: "Biodiversity and Ecosystem Management” \| *Camerino Univer
 
 ## Non-academic employment
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2026
 :::
@@ -130,7 +128,7 @@ Guide on RIB in Denmarks largest nature park • Seafarers Certification
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2022-2024
 :::
@@ -144,7 +142,7 @@ Pub-science • North American fresh & saltwater fish species descriptions
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2021
 :::
@@ -153,12 +151,12 @@ Pub-science • North American fresh & saltwater fish species descriptions
 **Science Educator** \| Seasonal employment, <em>The Limfjord Museum</em>
 
 ::: timeline-desc
-Speaker & public dissections • Snorkel instructor •  Sailing small RIB
+Speaker & public dissections • Snorkel instructor • Sailing small RIB
 :::
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2016-2021
 :::
@@ -167,12 +165,12 @@ Speaker & public dissections • Snorkel instructor •  Sailing small RIB
 **Science Educator** \| Student employment, <em>The Kattegatcentret</em>
 
 ::: timeline-desc
-Speaker & public dissections • Animal caretaking & training •  Pioneered summer camp concept
+Speaker & public dissections • Animal caretaking & training • Pioneered summer camp concept
 :::
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2015-2016
 :::
@@ -181,12 +179,12 @@ Speaker & public dissections • Animal caretaking & training •  Pioneered sum
 **Math tutor** \| Student employment, <em>MentorDanmark</em>
 
 ::: timeline-desc
-Private teacher • Age 7 to 17 •  Children with special needs
+Private teacher • Age 7 to 17 • Children with special needs
 :::
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2013-2015
 :::
@@ -195,12 +193,12 @@ Private teacher • Age 7 to 17 •  Children with special needs
 **Amusement park employee** \| Seasonal employment, <em>Djurs Sommerland A/S</em>
 
 ::: timeline-desc
-Customer service • Food production •  Fire response training
+Customer service • Food production • Fire response training
 :::
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2011-2019
 :::
@@ -253,7 +251,7 @@ Participated in mist-netting, morphological data collection, and bird ringing.
 **Surveying and tagging Galapagos Sea Lions** \| Caamaño, Galapagos, *Ecuador*
 
 ::: timeline-desc
-Conducted daily 'resight' rounds, performed behavioural tests and observed natural behavioural of Galapagos sea lions. Captured pups and yearlings from which biometric and hair samples were collected. 
+Conducted daily 'resight' rounds, performed behavioural tests and observed natural behavioural of Galapagos sea lions. Captured pups and yearlings from which biometric and hair samples were collected.
 :::
 ::::
 ::::::
@@ -274,13 +272,13 @@ Set up and managed trail cameras to monitor the local European wildcat populatio
 
 ## Invited talks
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2026
 :::
 
 :::: timeline-content
-**Teaching YOLO to count seals: from images to ecological data** 
+**Teaching YOLO to count seals: from images to ecological data**
 
 ::: timeline-desc
 26th Biennial Conference on the Biology of Marine Mammals \| *San Juan, Puerto Rico*
@@ -288,13 +286,13 @@ Set up and managed trail cameras to monitor the local European wildcat populatio
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2024
 :::
 
 :::: timeline-content
-**A plastic carol: laboratory sustainability and the reusability of microtiter plates** 
+**A plastic carol: laboratory sustainability and the reusability of microtiter plates**
 
 ::: timeline-desc
 Research and Technology Centre (FTZ), Coastal Ecology \| *Büsum, Germany*
@@ -302,11 +300,11 @@ Research and Technology Centre (FTZ), Coastal Ecology \| *Büsum, Germany*
 ::::
 ::::::
 
-
 ## Presentations & Seminars
+
 *Note: Conference names in bold*
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2026
 :::
@@ -320,7 +318,7 @@ Research and Technology Centre (FTZ), Coastal Ecology \| *Büsum, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2025
 :::
@@ -334,7 +332,7 @@ NC3 Retreat, *Bielefeld University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2025
 :::
@@ -348,7 +346,7 @@ NC3 Retreat, *Bielefeld University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2024
 :::
@@ -362,7 +360,7 @@ NC3 Retreat, *Bielefeld University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2024
 :::
@@ -376,7 +374,7 @@ NC3 Retreat, *Bielefeld University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2024
 :::
@@ -390,7 +388,7 @@ Animal Behavior Seminar, *Bielefeld University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2023
 :::
@@ -404,7 +402,7 @@ Animal Behavior Seminar, *Bielefeld University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2022
 :::
@@ -418,7 +416,7 @@ Animal Behavior Seminar, *Bielefeld University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2022
 :::
@@ -432,11 +430,11 @@ Animal Behavior Seminar, *Bielefeld University, Germany*
 ::::
 ::::::
 
-
 ## Workshops
+
 *Note: Invited calls in bold*
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2026
 :::
@@ -450,7 +448,7 @@ ICYMARE, *Bremen University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2026
 :::
@@ -464,10 +462,9 @@ ICYMARE, *Bremen University, Germany*
 ::::
 ::::::
 
-
 ## Poster Presentations
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2026
 :::
@@ -481,7 +478,7 @@ ICYMARE, *Bremen University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2024
 :::
@@ -495,7 +492,7 @@ ICYMARE, *Bremen University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2024
 :::
@@ -509,7 +506,7 @@ Conservation Genomics Paris, Muséum National d’Histoire Naturelle, *Paris, Fr
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2023
 :::
@@ -523,7 +520,7 @@ Behaviour 2023, *Bielefeld University, Germany*
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2019
 :::
@@ -537,9 +534,9 @@ Behaviour 2023, *Bielefeld University, Germany*
 ::::
 ::::::
 
-## Research visits 
+## Research visits
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2024, 2026
 :::
@@ -553,7 +550,7 @@ Collaborative research visits focusing on automated image analysis (YOLO).
 ::::
 ::::::
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2021
 :::
@@ -561,14 +558,13 @@ Collaborative research visits focusing on automated image analysis (YOLO).
 :::: timeline-content
 **Department for Wildlife Disease**, Leibniz Institute for Zoo and Wildlife Research (IZW), *Berlin, Germany*
 
-
 ::: timeline-desc
 Learning how to identify white blood cells and parasites in haematological smears
 :::
 ::::
 ::::::
 
-## Teaching experience 
+## Teaching experience
 
 :::::: timeline-item
 ::: timeline-year
@@ -579,7 +575,7 @@ Learning how to identify white blood cells and parasites in haematological smear
 **Marine Conservation** \| Bachelor course, *Bielefeld University*
 
 ::: timeline-desc
-Prepared and gave lectures on the topic 'Marine Conservation' in the general course 'Conservation Biology'. 
+Prepared and gave lectures on the topic 'Marine Conservation' in the general course 'Conservation Biology'.
 :::
 ::::
 ::::::
@@ -598,9 +594,9 @@ Prepared and gave weekly talks about shark ecology and evolution, harbour seal e
 ::::
 ::::::
 
-## Student supervision 
+## Student supervision
 
-::::: timeline-item
+:::::: timeline-item
 ::: timeline-year
 2023
 :::
@@ -615,169 +611,173 @@ Trained and instructed a laboratory intern in high-throughput DNA extractions, g
 ::::::
 
 ## Other academic activities
+
 Conference co-organiser and Scientific committee member:
 
-:::::: timeline-item
+::::: timeline-item
 ::: timeline-year
 2023
 :::
 
 ::: timeline-content
 **Behaviour 2023** \| 14th to 20th August, *Bielefeld University*
-
 :::
-::::
+:::::
 
 Symposium co-organiser:
 
-:::::: timeline-item
+::::: timeline-item
 ::: timeline-year
 2023
 :::
 
 ::: timeline-content
 **Causes and consequences of individualization in behavioural ecology** \| 14th to 20th August, *Behaviour 2023*
-
 :::
-::::
+:::::
 
 Seminar co-organiser:
 
-:::::: timeline-item
+::::: timeline-item
 ::: timeline-year
 2023-2024
 :::
 
 ::: timeline-content
 **Animal behaviour seminar** \| *Bielefeld University*
-
 :::
-::::
+:::::
 
-Society membership: 
+Society membership:
 
-:::::: timeline-item
+::::: timeline-item
 ::: timeline-year
 2024-2026
 :::
 
 ::: timeline-content
-**Society for Marine Mammalogy** 
-
+**Society for Marine Mammalogy**
 :::
-::::
+:::::
 
-:::::: timeline-item
+::::: timeline-item
 ::: timeline-year
 2023-2026
 :::
 
 ::: timeline-content
-**Society for open, reliable, and transparent ecology and evolutionary biology** 
-
+**Society for open, reliable, and transparent ecology and evolutionary biology**
 :::
-::::
+:::::
 
 ## Grants, Stipends and Prizes
+
 *Total funding secured: **€ 22,982***
 
 ::::: timeline-item
 ::: timeline-year
 2026
 :::
-:::: timeline-content
+
+::: timeline-content
 **Equal Opportunities Commissions Stipend** (€ 4,950) \| *Bielefeld University*
 
-**Equal Opportunities Commissions Travel Grant** (€ 400) 
-::::
-::::::
+**Equal Opportunities Commissions Travel Grant** (€ 400)
+:::
+:::::
 
 ::::: timeline-item
 ::: timeline-year
 2024
 :::
-:::: timeline-content
+
+::: timeline-content
 **The Viet-Jacobsen Fund** (€ 1,340)
 
 **The Friedrich W. Franks Fund** (€ 1,340)
-::::
-::::::
+:::
+:::::
 
 ::::: timeline-item
 ::: timeline-year
 2023
 :::
-:::: timeline-content
+
+::: timeline-content
 **The William Demant Fund** (€ 1,400)
 
-**The Viet-Jacobsen Fund** (€ 1,340) 
+**The Viet-Jacobsen Fund** (€ 1,340)
 
 **The Augustinus Fund** (€ 533)
-::::
-::::::
+:::
+:::::
 
 ::::: timeline-item
 ::: timeline-year
 2022
 :::
-:::: timeline-content
+
+::: timeline-content
 **Career Bridge Master-Doctorate Stipend** (€ 6,000) \| *Bielefeld University*
-::::
-::::::
+:::
+:::::
 
 ::::: timeline-item
 ::: timeline-year
 2019
 :::
-:::: timeline-content
+
+::: timeline-content
 **ERASMUS Exchange Stipends** (€ 3,360 + € 979)
-::::
-::::::
+:::
+:::::
 
 ::::: timeline-item
 ::: timeline-year
 2018
 :::
-:::: timeline-content
+
+::: timeline-content
 **Youth Trophy** (€ 670)
-::::
-::::::
+:::
+:::::
 
 ::::: timeline-item
 ::: timeline-year
 2011
 :::
-:::: timeline-content
+
+::: timeline-content
 **Head of class '11: Science Prize** (€ 670)
-::::
-::::::
+:::
+:::::
 
 ## Skills, Certifications & Languages
 
-::: {.grid}
-
+::::: grid
 ::: {.g-col-12 .g-col-md-6}
 ### Computational skills
-- **Statistics & modeling:** 
-  - R (Bayesian hierarchical modeling, `brms`)
-  - Transcriptomics (DGE using `limma`/`voom`) 
-  - Automated computer vision workflows (YOLO)
-- **Workflows & clusters:** 
-  - Git/GitHub
-  - Reproducible research (Quarto/RMarkdown)
-  - Bash HPC environments
+
+-   **Statistics & modeling:**
+    -   R (Bayesian hierarchical modeling, `brms`)
+    -   Transcriptomics (DGE using `limma`/`voom`)
+    -   Automated computer vision workflows (YOLO)
+-   **Workflows & clusters:**
+    -   Git/GitHub
+    -   Reproducible research (Quarto/RMarkdown)
+    -   Bash HPC environments
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ### Certifications & Languages
-- **Certifications:** 
-  - Seafarers Certificate (Fit for work at sea, until 2028)
-  - PADI Advanced Open Water Divers certificate
-  - Driver's License (B & A2)
-- **Languages:** 
-  - **Danish & English:** Native / Fluent
-  - **German:** Intermediate
-  - **Spanish & Italian:** Beginner
-:::
 
+-   **Certifications:**
+    -   Seafarers Certificate (Fit for work at sea, until 2028)
+    -   PADI Advanced Open Water Divers certificate
+    -   Driver's License (B & A2)
+-   **Languages:**
+    -   **Danish & English:** Native / Fluent
+    -   **German:** Intermediate
+    -   **Spanish & Italian:** Beginner
 :::
+:::::
