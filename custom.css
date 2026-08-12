@@ -87,13 +87,20 @@
   background: white;
 }
 
-/* Creates a professional hanging indent for publication lists */
-ul {
+/* --- Navbar Reset (prevents list leaks) --- */
+.navbar .navbar-nav li {
+  padding-left: 0 !important;
+  text-indent: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* --- Publication Lists (scoped to main content only) --- */
+#quarto-content main ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-ul li {
+#quarto-content main ul li {
   padding-left: 2em;
   text-indent: -2em;
   margin-bottom: 1em; /* Adds breathing room between papers */
