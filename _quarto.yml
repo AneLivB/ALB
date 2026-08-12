@@ -3,6 +3,7 @@ project:
 
 website:
   title: "ALB"
+  site-url: "https://AneLivB.github.io/ALB/"
   navbar:
     left:
       - href: ALB.qmd
