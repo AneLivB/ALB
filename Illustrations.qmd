@@ -1,0 +1,9 @@
+---
+theme: styles.css
+---
+
+I make digital illustrations for posters, presentations and publications!
+
+![](Illustrations.png)
+
+Ship me an email, if you're looking for a freelance illustrator.

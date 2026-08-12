@@ -1,0 +1,101 @@
+/* --- Round profile image --- */
+.round-img {
+  width: 90%;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+/* --- Centered name/title spacing --- */
+.centered-profile h3,
+.centered-profile h4 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* --- Social icon container spacing --- */
+.social-icons {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* --- Font Awesome icons --- */
+.social-icons a {
+  margin: 0 0.4rem;
+  font-size: 1.3rem;
+  color: #444;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #43695F;
+}
+
+/* --- Inline SVG icon (Bluesky) --- */
+.social-link {
+  display: inline-block;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #43695F;
+}
+
+.social-svg {
+  height: 1.3rem;
+  width: 1.3rem;
+  fill: currentColor;
+  transition: fill 0.3s ease;
+  vertical-align: middle;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.timeline-year {
+  min-width: 110px;
+  flex-shrink: 0;
+  font-weight: bold;
+}
+
+.timeline-content {
+  flex-grow: 1;
+}
+
+/* Zero out Pandoc's auto-generated paragraph margins inside timeline blocks */
+.timeline-item p {
+  margin: 0;
+}
+
+/* Control exact spacing above the description */
+.timeline-desc {
+  margin-top: 0.2rem;
+  font-size: 0.9em;
+}
+
+.margin-card-img {
+  border: 1px solid #ddd;
+  padding: 6px;
+  border-radius: 6px;
+  background: white;
+}
+
+/* Creates a professional hanging indent for publication lists */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding-left: 2em;
+  text-indent: -2em;
+  margin-bottom: 1em; /* Adds breathing room between papers */
+  line-height: 1.6;
+}
