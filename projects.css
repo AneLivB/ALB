@@ -1,3 +1,4 @@
+/* --- Tag Badges --- */
 .tag {
   display: inline-block;
   padding: 0.25em 0.6em;
@@ -10,65 +11,85 @@
   text-transform: uppercase;
 }
 
-.tag.current {
-  background-color: #5A8F7B;
+.tag.current { background-color: #5A8F7B; }
+.tag.future { background-color: #7AAE96; }
+.tag.completed { background-color: #334B45; }
+.tag.phd-chapter { background-color: #6E5F9A; }
+.tag.side-quest { background-color: #9A7D5F; }
+.tag.code { background-color: #3B6AA0; }
+.tag.preprint { background-color: #A05A8F; }
+.tag.in-review { background-color: #C87D55; }
+
+/* --- Tag Filter Bar --- */
+.tag-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
 }
 
-.tag.future {
-  background-color: #7AAE96;
+.filter-btn {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #334155;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
-.tag.completed {
-  background-color: #334B45;
+.filter-btn:hover, 
+.filter-btn.active {
+  background: #43695F;
+  color: #FAF9F6;
+  border-color: #43695F;
 }
 
-.tag.phd-chapter {
-  background-color: #6E5F9A;
+/* --- Project Cards (Dark Green Style) --- */
+.project-card {
+  border: 1px solid #3a5a50;
+  border-radius: 8px;
+  padding: 1.25rem;
+  background-color: #43695F;
+  color: #43695F;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.tag.side-quest {
-  background-color: #9A7D5F;
+.project-card:hover {
+  transform: translateY(-4px);
+  background-color: #3a5a50;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.tag.code {
-  background-color: #3B6AA0; /* medium-dark blue */
+.project-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  object-fit: cover;
+  max-height: 180px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.tag.preprint {
-  background-color: #A05A8F; /* muted plum */
-}
-
-.callout-tip {
-  background-color: #43695F; /* dark green */
-  color: #FAF9F6;  /* White */
-}
-
-.callout-tip h3 {
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
   color: #FAF9F6 !important;
 }
 
-.callout-tip[data-link] {
-  position: relative;
-  cursor: pointer;
+.project-card p {
+  flex-grow: 1;
+  font-size: 0.95rem;
+  color: #FAF9F6;
+  margin-bottom: 1rem;
 }
 
-/* Insert a full-size invisible link overlay */
-.callout-tip[data-link]::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  z-index: 10;
+.card-tags {
+  margin-top: auto;
 }
-
-/* Optional: make sure text and images are above the overlay */
-.callout-tip[data-link] > * {
-  position: relative;
-  z-index: 20;
-}
-
-/* Add a hover effect */
-.callout-tip[data-link]:hover {
-  background-color: #3a5a50; /* darker shade */
-}
-
-/* Use JavaScript to make the whole card clickable */

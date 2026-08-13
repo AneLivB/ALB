@@ -106,3 +106,8 @@
   margin-bottom: 1em; /* Adds breathing room between papers */
   line-height: 1.6;
 }
+
+.collaborator-name {
+  color: #C87D55; /* warm rust accent (or use #7AAE96 for light green) */
+  font-weight: 600;
+}

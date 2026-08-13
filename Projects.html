@@ -120,11 +120,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sections</h2>
+   
+  <ul>
+  <li><a href="#current-projects" id="toc-current-projects" class="nav-link active" data-scroll-target="#current-projects">Current Projects</a></li>
+  <li><a href="#completed-projects" id="toc-completed-projects" class="nav-link" data-scroll-target="#completed-projects">Completed Projects</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -133,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -145,191 +152,213 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<!-- Tag Filter Bar -->
+<div class="tag-filter-bar">
+  <button class="filter-btn active" data-filter="all">All Tags</button>
+  <button class="filter-btn" data-filter="phd-chapter">PhD Chapter</button>
+  <button class="filter-btn" data-filter="current">Ongoing</button>
+  <button class="filter-btn" data-filter="in-review">In Review / Preprint</button>
+  <button class="filter-btn" data-filter="completed">Published / Completed</button>
+  <button class="filter-btn" data-filter="code">Code</button>
+  <button class="filter-btn" data-filter="side-quest">Side Quest</button>
+</div>
+
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll(".callout-tip[data-link]").forEach(card => {
-    card.addEventListener("click", () => {
-      window.location = card.getAttribute("data-link");
+  // Card click navigation
+  document.querySelectorAll(".project-card[data-link]").forEach(card => {
+    card.addEventListener("click", (e) => {
+      if (!e.target.closest('a')) {
+        window.location = card.getAttribute("data-link");
+      }
+    });
+  });
+
+  // Tag Filtering Logic
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const projectCols = document.querySelectorAll(".grid > div");
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      filterButtons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      const filter = btn.getAttribute("data-filter");
+
+      projectCols.forEach(col => {
+        const card = col.querySelector(".project-card");
+        if (!card) return;
+        
+        const tags = card.getAttribute("data-tags") || "";
+        if (filter === "all" || tags.includes(filter)) {
+          col.style.display = "block";
+        } else {
+          col.style.display = "none";
+        }
+      });
     });
   });
 });
 </script>
+<section id="current-projects" class="level2">
+<h2 class="anchored" data-anchor-id="current-projects">Current Projects</h2>
 <div class="grid">
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-tip no-icon callout-titled" data-link="https://ecoevorxiv.org/repository/view/8704/">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="r2d2-methods-project" class="level3 project-card" data-tags="current code">
+<h3 class="anchored" data-anchor-id="r2d2-methods-project">R2D2 Methods Project</h3>
+<p>Testing R2D2 methodology for variance decomposition and preparing a methods paper in collaboration with <span class="collaborator-name">Paul Christian Bürkner</span>.</p>
+<div class="card-tags">
+<p><span class="tag current">Ongoing</span> <span class="tag code">Code</span></p>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Percieved density project
+</section>
 </div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="non-linear-plasticity-project" class="level3 project-card" data-tags="current">
+<h3 class="anchored" data-anchor-id="non-linear-plasticity-project">Non-linear Plasticity Project</h3>
+<p>Preparing a ‘how to study’ methodological paper to help researchers investigate non-linear plasticity.</p>
+<div class="card-tags">
+<p><span class="tag current">Ongoing</span></p>
 </div>
-<div class="callout-body-container callout-body">
-<p>Exploring how individual differences in perceived population density shape behavior, ecological niches, and evolutionary outcomes.</p>
-<p><span class="tag preprint">Preprint</span> <span class="tag phd-chapter">PhD chapter</span></p>
+</section>
 </div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="plasticity-fitness-project" class="level3 project-card" data-tags="current code">
+<h3 class="anchored" data-anchor-id="plasticity-fitness-project">Plasticity ~ Fitness Project</h3>
+<p>Examining the direct and indirect fitness consequences of individual variation in phenotypic plasticity.</p>
+<div class="card-tags">
+<p><span class="tag current">Ongoing</span> <span class="tag code">Code</span></p>
 </div>
+</section>
 </div>
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-tip no-icon" data-link="https://royalsocietypublishing.org/doi/10.1098/rsos.242226">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="pinniped-senescence-project" class="level3 project-card" data-tags="current code">
+<h3 class="anchored" data-anchor-id="pinniped-senescence-project">Pinniped Senescence Project</h3>
+<p>Quantifying patterns of reproductive and physiological senescence in Galapagos sea lions and Antarctic fur seals.</p>
+<div class="card-tags">
+<p><span class="tag current">Ongoing</span> <span class="tag code">Code</span></p>
 </div>
-<div class="callout-body-container">
-<p><img src="SGP.png" class="img-fluid"></p>
-<section id="sustainable-genetics-project" class="level3">
-<h3 class="anchored" data-anchor-id="sustainable-genetics-project">Sustainable Genetics Project</h3>
-<p>Evaluating sustainable reuse of single-use microtitre plates in labs to reduce plastic waste without compromising genotyping accuracy.</p>
-<p><span class="tag completed">Published</span> <span class="tag phd-chapter">PhD chapter</span> <span class="tag code">Code</span></p>
+</section>
+</div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="male-territories-project" class="level3 project-card" data-tags="current code">
+<h3 class="anchored" data-anchor-id="male-territories-project">Male Territories Project</h3>
+<p>Using automatic detections to map male territories and explore differences in inequality between two neighbouring Antarctic fur seal colonies.</p>
+<div class="card-tags">
+<p><span class="tag current">Ongoing</span> <span class="tag code">Code</span></p>
+</div>
+</section>
+</div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="bird-island-imagery-project-ii" class="level3 project-card" data-link="https://ecoevorxiv.org/repository/view/8704/" data-tags="current in-review preprint phd-chapter code">
+<h3 class="anchored" data-anchor-id="bird-island-imagery-project-ii">Bird Island Imagery Project II</h3>
+<p>Using automatic detections to compare predation pressure between two neighbouring Antarctic fur seal colonies differing four-fold in population density.</p>
+<div class="card-tags">
+<p><span class="tag in-review">In Review</span> <span class="tag preprint">Preprint</span> <span class="tag phd-chapter">PhD chapter</span> <span class="tag code">Code</span></p>
+</div>
+</section>
+</div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="gene-expression-project" class="level3 project-card" data-link="https://ecoevorxiv.org/repository/view/8704/" data-tags="current in-review phd-chapter code">
+<h3 class="anchored" data-anchor-id="gene-expression-project">Gene Expression Project</h3>
+<p>Using differential gene expression profiles to investigate the effects of density, food availability, life-history stage and developmental time point on Antarctic fur seals.</p>
+<div class="card-tags">
+<p><span class="tag in-review">In Review</span> <span class="tag phd-chapter">PhD chapter</span> <span class="tag code">Code</span></p>
+</div>
+</section>
+</div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="trait-decomposition-project" class="level3 project-card" data-link="https://onlinelibrary.wiley.com/doi/10.1002/ece3.71588" data-tags="current phd-chapter code">
+<h3 class="anchored" data-anchor-id="trait-decomposition-project">Trait Decomposition Project</h3>
+<p>Decomposing phenotypic traits to understand the genetic and environmental contributions in Antarctic fur seal pups.</p>
+<div class="card-tags">
+<p><span class="tag current">Ongoing</span> <span class="tag phd-chapter">PhD chapter</span> <span class="tag code">Code</span></p>
+</div>
 </section>
 </div>
 </div>
-</div>
-</div>
-</div>
+</section>
+<section id="completed-projects" class="level2">
+<h2 class="anchored" data-anchor-id="completed-projects">Completed Projects</h2>
 <div class="grid">
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-tip no-icon callout-titled" data-link="https://www.nature.com/articles/s41598-024-62290-x">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="perceived-density-project" class="level3 project-card" data-link="projects/perceived-density.html" data-tags="completed phd-chapter">
+<h3 class="anchored" data-anchor-id="perceived-density-project">Perceived Density Project</h3>
+<p>Exploring how individual differences in perceived population density shape behavior, ecological niches, and evolutionary outcomes.</p>
+<div class="card-tags">
+<p><span class="tag completed">Published</span> <span class="tag phd-chapter">PhD chapter</span></p>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Pup Growth Project
+</section>
 </div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Investigating how inbreeding affects pup survival in Antarctic fur seals amid environmental change and food scarcity.</p>
-<p><span class="tag completed">Published</span> <span class="tag phd-chapter">PhD chapter</span> <span class="tag code">Code</span></p>
-</div>
-</div>
-</div>
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-tip no-icon" data-link="https://ecoevorxiv.org/repository/view/8704/">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="project-card" data-link="https://ecoevorxiv.org/repository/view/8704/" data-tags="completed phd-chapter">
 <p><img src="BIIP.png" class="img-fluid"></p>
 <section id="bird-island-imagery-project" class="level3">
 <h3 class="anchored" data-anchor-id="bird-island-imagery-project">Bird Island Imagery Project</h3>
 <p>Investigating how fine-scale density patterns shape predator-prey interactions using a remote camera and automated detection.</p>
-<p><span class="tag current">Ongoing</span> <span class="tag phd-chapter">PhD chapter</span></p>
+<div class="card-tags">
+<p><span class="tag completed">Published</span> <span class="tag phd-chapter">PhD chapter</span></p>
+</div>
 </section>
 </div>
 </div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="epigenetics-nc3" class="level3 project-card" data-link="https://ecoevorxiv.org/repository/view/8694/" data-tags="completed">
+<h3 class="anchored" data-anchor-id="epigenetics-nc3">Epigenetics &amp; NC3</h3>
+<p>Exploring how epigenetic mechanisms shape individualized niches and contribute to eco-evolutionary diversity.</p>
+<div class="card-tags">
+<p><span class="tag completed">Published</span></p>
+</div>
+</section>
+</div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="project-card" data-link="https://royalsocietypublishing.org/doi/10.1098/rsos.242226" data-tags="completed phd-chapter code">
+<p><img src="SGP.png" class="img-fluid"></p>
+<section id="sustainable-genetics-project" class="level3">
+<h3 class="anchored" data-anchor-id="sustainable-genetics-project">Sustainable Genetics Project</h3>
+<p>Evaluating sustainable reuse of single-use microtitre plates in labs to reduce plastic waste without compromising genotyping accuracy.</p>
+<div class="card-tags">
+<p><span class="tag completed">Published</span> <span class="tag phd-chapter">PhD chapter</span> <span class="tag code">Code</span></p>
+</div>
+</section>
 </div>
 </div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="pup-growth-project" class="level3 project-card" data-link="https://www.nature.com/articles/s41598-024-62290-x" data-tags="completed phd-chapter code">
+<h3 class="anchored" data-anchor-id="pup-growth-project">Pup Growth Project</h3>
+<p>Investigating how inbreeding affects pup survival in Antarctic fur seals amid environmental change and food scarcity.</p>
+<div class="card-tags">
+<p><span class="tag completed">Published</span> <span class="tag phd-chapter">PhD chapter</span> <span class="tag code">Code</span></p>
 </div>
-<div class="grid">
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-tip no-icon" data-link="https://onlinelibrary.wiley.com/doi/10.1002/ece3.71588">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+</section>
 </div>
-<div class="callout-body-container">
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="project-card" data-link="https://onlinelibrary.wiley.com/doi/10.1002/ece3.71588" data-tags="completed code">
 <p><img src="EDIgraphicupdated.png" class="img-fluid"></p>
 <section id="edi-study" class="level3">
-<h3 class="anchored" data-anchor-id="edi-study">EDI study</h3>
+<h3 class="anchored" data-anchor-id="edi-study">EDI Study</h3>
 <p>Examining gender disparities in question-asking at a scientific conference to understand barriers to inclusion and equity in academic settings.</p>
+<div class="card-tags">
 <p><span class="tag completed">Published</span> <span class="tag code">Code</span></p>
+</div>
 </section>
 </div>
 </div>
-</div>
-</div>
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-tip no-icon callout-titled" data-link="https://ecoevorxiv.org/repository/view/8704/">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Gene Expression Project
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Using differential gene expression profiles to reveal the immune-challenging environment faced by Antarctic fur seals.</p>
-<p><span class="tag current">Ongoing</span> <span class="tag phd-chapter">PhD chapter</span></p>
-</div>
-</div>
-</div>
-</div>
-<div class="grid">
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-tip no-icon callout-titled" data-link="https://onlinelibrary.wiley.com/doi/10.1002/ece3.71588">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Trait decomposition Project
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Decomposing phenotypic traits to understand the genetic and environmental contributions in Antarctic fur seal pups.</p>
-<p><span class="tag current">Ongoing</span> <span class="tag phd-chapter">PhD chapter</span></p>
-</div>
-</div>
-</div>
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-tip no-icon callout-titled" data-link="https://ecoevorxiv.org/repository/view/8704/">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Bird Island Imagery Project II
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Validating a retrained detection algorithm as a proof of concept for studying colonial species using remote camera monitoring.</p>
-<p><span class="tag current">Ongoing</span> <span class="tag phd-chapter">PhD chapter</span></p>
-</div>
-</div>
-</div>
-</div>
-<div class="grid">
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-tip no-icon callout-titled" data-link="https://ecoevorxiv.org/repository/view/8694/">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Epigenetics &amp; NC3 Project
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Exploring how epigenetic mechanisms shape individualized niches and contribute to eco-evolutionary diversity.</p>
-<p><span class="tag preprint">Preprint</span></p>
-</div>
-</div>
-</div>
-<div class="g-col-6">
-<div class="callout callout-style-simple callout-tip no-icon" data-link="https://ecoevorxiv.org/repository/view/8704/">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
+<div class="project-card" data-link="https://ecoevorxiv.org/repository/view/8704/" data-tags="completed side-quest">
 <p><img src="SASL.png" class="img-fluid"></p>
 <section id="south-american-sea-lion-project" class="level3">
 <h3 class="anchored" data-anchor-id="south-american-sea-lion-project">South American Sea Lion Project</h3>
 <p>Using microsatellites to determine paternity and reconstruct pedigrees in captive South American sea lions.</p>
+<div class="card-tags">
 <p><span class="tag completed">Completed</span> <span class="tag side-quest">Side quest</span></p>
+</div>
 </section>
 </div>
 </div>
 </div>
-</div>
-</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
