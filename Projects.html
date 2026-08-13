@@ -125,8 +125,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sections</h2>
    
   <ul>
-  <li><a href="#current-projects" id="toc-current-projects" class="nav-link active" data-scroll-target="#current-projects">Current Projects</a></li>
-  <li><a href="#completed-projects" id="toc-completed-projects" class="nav-link" data-scroll-target="#completed-projects">Completed Projects</a></li>
+  <li><a href="#current" id="toc-current" class="nav-link active" data-scroll-target="#current">Current</a></li>
+  <li><a href="#completed" id="toc-completed" class="nav-link" data-scroll-target="#completed">Completed</a></li>
   </ul>
 </nav>
     </div>
@@ -157,7 +157,8 @@ ul.task-list li input[type="checkbox"] {
   <button class="filter-btn active" data-filter="all">All Tags</button>
   <button class="filter-btn" data-filter="phd-chapter">PhD Chapter</button>
   <button class="filter-btn" data-filter="current">Ongoing</button>
-  <button class="filter-btn" data-filter="in-review">In Review / Preprint</button>
+  <button class="filter-btn" data-filter="preprint">Preprint</button>
+    <button class="filter-btn" data-filter="in-review">In Review</button>
   <button class="filter-btn" data-filter="completed">Published / Completed</button>
   <button class="filter-btn" data-filter="code">Code</button>
   <button class="filter-btn" data-filter="side-quest">Side Quest</button>
@@ -200,8 +201,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
-<section id="current-projects" class="level2">
-<h2 class="anchored" data-anchor-id="current-projects">Current Projects</h2>
+<section id="current" class="level2">
+<h2 class="anchored" data-anchor-id="current">Current</h2>
 <div class="grid">
 <div class="g-col-12 g-col-md-6 g-col-lg-4">
 <section id="r2d2-methods-project" class="level3 project-card" data-tags="current code">
@@ -258,6 +259,15 @@ document.addEventListener("DOMContentLoaded", () => {
 </section>
 </div>
 <div class="g-col-12 g-col-md-6 g-col-lg-4">
+<section id="marine-mammal-genetics-review" class="level3 project-card" data-link="https://ecoevorxiv.org/repository/view/8704/" data-tags="current in-review preprint phd-chapter code">
+<h3 class="anchored" data-anchor-id="marine-mammal-genetics-review">Marine Mammal Genetics Review</h3>
+<p>Invited review about marine mammal genetics techniques, combined with indigenous knowledge, originating from the genetic workshop at the 25th Biennial Conference on the Biology of Marine Mammals.</p>
+<div class="card-tags">
+<p><span class="tag in-review">In Review</span></p>
+</div>
+</section>
+</div>
+<div class="g-col-12 g-col-md-6 g-col-lg-4">
 <section id="gene-expression-project" class="level3 project-card" data-link="https://ecoevorxiv.org/repository/view/8704/" data-tags="current in-review phd-chapter code">
 <h3 class="anchored" data-anchor-id="gene-expression-project">Gene Expression Project</h3>
 <p>Using differential gene expression profiles to investigate the effects of density, food availability, life-history stage and developmental time point on Antarctic fur seals.</p>
@@ -277,8 +287,8 @@ document.addEventListener("DOMContentLoaded", () => {
 </div>
 </div>
 </section>
-<section id="completed-projects" class="level2">
-<h2 class="anchored" data-anchor-id="completed-projects">Completed Projects</h2>
+<section id="completed" class="level2">
+<h2 class="anchored" data-anchor-id="completed">Completed</h2>
 <div class="grid">
 <div class="g-col-12 g-col-md-6 g-col-lg-4">
 <section id="perceived-density-project" class="level3 project-card" data-link="projects/perceived-density.html" data-tags="completed phd-chapter">
