@@ -111,3 +111,21 @@
   color: #C87D55; /* warm rust accent (or use #7AAE96 for light green) */
   font-weight: 600;
 }
+
+/* --- "Back to Projects" Button Customization --- */
+.btn-outline-secondary {
+  color:  #C87D55 !important;          /* Text color (Dark Forest Green) */
+  border-color:  #C87D55 !important;   /* Border color */
+  background-color: transparent !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Color when you hover over the button */
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color:  #C87D55 !important; /* Background turns Dark Forest Green */
+  color: #FAF9F6 !important;            /* Text turns off-white */
+  border-color:  #C87D55 !important; 
+}
+

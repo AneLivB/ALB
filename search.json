@@ -119,6 +119,34 @@
     "text": "Skills, Certifications & Languages\n\n\nComputational skills\n\nStatistics & modeling:\n\nR (Bayesian hierarchical modeling, brms)\nTranscriptomics (DGE using limma/voom)\nAutomated computer vision workflows (YOLO)\n\nWorkflows & clusters:\n\nGit/GitHub\nReproducible research (Quarto/RMarkdown)\nBash HPC environments\n\n\n\n\nCertifications & Languages\n\nCertifications:\n\nSeafarers Certificate (Fit for work at sea, until 2028)\nPADI Advanced Open Water Divers certificate\nDriver’s License (B & A2)\n\nLanguages:\n\nDanish & English: Native / Fluent\nGerman: Intermediate\nSpanish & Italian: Beginner"
   },
   {
+    "objectID": "project_descriptions/BIP.html",
+    "href": "project_descriptions/BIP.html",
+    "title": "Fine-scale spatiotemporal predator–prey interactions in an Antarctic fur seal colony",
+    "section": "",
+    "text": "← Back to Projects"
+  },
+  {
+    "objectID": "project_descriptions/BIP.html#behind-the-scenes",
+    "href": "project_descriptions/BIP.html#behind-the-scenes",
+    "title": "Fine-scale spatiotemporal predator–prey interactions in an Antarctic fur seal colony",
+    "section": "Behind the scenes",
+    "text": "Behind the scenes\nThe Antarctic fur seal has been extensively studied over the past four decades on Bird Island, South Georgia. However, little reseach has focused on the predator-prey interactions within the colony.Traditional methods can only capture snapshots, making it nearly impossible observe rare encounters.\nTo overcome this, we set up time-lapse cameras capturing minute-by-minute images across an entire breeding season. To analyze this dataset, we trained a hierarchical YOLO-based neural network capable of identifying adult male fur seals, adult females, pups, and three key avian predator–scavengers: giant petrels, brown skuas, and snowy sheathbills. This resulted in millions of data points mapping fine-scale spatial interactions across time."
+  },
+  {
+    "objectID": "project_descriptions/BIP.html#what-we-tested",
+    "href": "project_descriptions/BIP.html#what-we-tested",
+    "title": "Fine-scale spatiotemporal predator–prey interactions in an Antarctic fur seal colony",
+    "section": "What we tested",
+    "text": "What we tested\nFirst, we tested whether our automatically generated observations matched the known phneology of the species of interest. Second, we investigated spatial associations among Antarctic fur seals, and between them and their associated predator-scavengers.\nAvian predator-scavengers are naturally drawn to seal colonies by the abundance of food resources during breeding season. We used the physical proximity between fur seal pups and avian predators as a proxy for predation risk. Historically, the adult male Antarctic fur seal has been the main cause of pup mortality, thus we expected that the pups would try to physically avoid both adult males and their predators. Since that adult females should be invested in the survival of their offspring, we expected that pups could reduce their predation risk (increase distance to nearest predator) by staying close to adult females."
+  },
+  {
+    "objectID": "project_descriptions/BIP.html#key-takeaways",
+    "href": "project_descriptions/BIP.html#key-takeaways",
+    "title": "Fine-scale spatiotemporal predator–prey interactions in an Antarctic fur seal colony",
+    "section": "Key takeaways",
+    "text": "Key takeaways\nAutomated accuracy: Detections closely matched established phenology, proving that remote time-lapse setups can reliably monitor remote wildlife colonies.\nSpatial avoidance: Pups actively clustered near other pups and adult females while maintaining distance from avian predators and territorial males.\nThe “Shield” effect: Proximity to adult fur seals of both sexes significantly reduced a pup’s risk of predator proximity. Meanwhile, being close to other pups did not lower predation risk.\nOverall, this project emphasizes how remote observation can unlock insights into wildlife behaviour without disturbing sensitive natural habitats.\n\n\n\n\n\n\n\nNoteCitation & Reference\n\n\n\nIf you reference or build upon this work, please cite the original paper:\nAne Liv Berthelsen, Johannes Bartl, Alexander Winterl, Cameron Fox-Clarke, Jaume Forcada, Rebecca Nagel, Ben Fabry, Joseph Ivan Hoffman; Fine-scale spatiotemporal predator–prey interactions in an Antarctic fur seal colony. R. Soc. Open Sci. 1 May 2026; 13 (5): 250931. https://doi.org/10.1098/rsos.250931"
+  },
+  {
     "objectID": "Illustrations.html",
     "href": "Illustrations.html",
     "title": "Illustrations",
@@ -144,7 +172,7 @@
     "href": "Projects.html#completed",
     "title": "Projects",
     "section": "Completed",
-    "text": "Completed\n\n\n\nPerceived Density Project\nExploring how individual differences in perceived population density shape behavior, ecological niches, and evolutionary outcomes.\n\nPublished PhD chapter\n\n\n\n\n\n\n\nBird Island Imagery Project\nInvestigating how fine-scale density patterns shape predator-prey interactions using a remote camera and automated detection.\n\nPublished PhD chapter\n\n\n\n\n\n\nEpigenetics & NC3\nExploring how epigenetic mechanisms shape individualized niches and contribute to eco-evolutionary diversity.\n\nPublished\n\n\n\n\n\n\n\nSustainable Genetics Project\nEvaluating sustainable reuse of single-use microtitre plates in labs to reduce plastic waste without compromising genotyping accuracy.\n\nPublished PhD chapter Code\n\n\n\n\n\n\nPup Growth Project\nInvestigating how inbreeding affects pup survival in Antarctic fur seals amid environmental change and food scarcity.\n\nPublished PhD chapter Code\n\n\n\n\n\n\n\nEDI Study\nExamining gender disparities in question-asking at a scientific conference to understand barriers to inclusion and equity in academic settings.\n\nPublished Code\n\n\n\n\n\n\n\n\nSouth American Sea Lion Project\nUsing microsatellites to determine paternity and reconstruct pedigrees in captive South American sea lions.\n\nCompleted Side quest"
+    "text": "Completed\n\n\n\nPerceived Density Project\nExploring how individual differences in perceived population density shape behavior, ecological niches, and evolutionary outcomes.\n\nPublished PhD chapter\n\n\n\n\n::: {.project-card data-link=“project_descriptions/BIP.html” data-tags=“completed phd-chapter”} data-tags=“completed phd-chapter”} \n\nBird Island Imagery Project\nInvestigating how fine-scale density patterns shape predator-prey interactions using a remote camera and automated detection.\n\nPublished PhD chapter\n\n\n\n\n\n\nEpigenetics & NC3\nExploring how epigenetic mechanisms shape individualized niches and contribute to eco-evolutionary diversity.\n\nPublished\n\n\n\n\n\n\n\nSustainable Genetics Project\nEvaluating sustainable reuse of single-use microtitre plates in labs to reduce plastic waste without compromising genotyping accuracy.\n\nPublished PhD chapter Code\n\n\n\n\n\n\nPup Growth Project\nInvestigating how inbreeding affects pup survival in Antarctic fur seals amid environmental change and food scarcity.\n\nPublished PhD chapter Code\n\n\n\n\n\n\n\nEDI Study\nExamining gender disparities in question-asking at a scientific conference to understand barriers to inclusion and equity in academic settings.\n\nPublished Code\n\n\n\n\n\n\n\n\nSouth American Sea Lion Project\nUsing microsatellites to determine paternity and reconstruct pedigrees in captive South American sea lions.\n\nCompleted Side quest\n\n\n\n\n:::::::"
   },
   {
     "objectID": "Publications.html",

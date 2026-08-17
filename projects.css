@@ -93,3 +93,39 @@
 .card-tags {
   margin-top: auto;
 }
+
+/* --- Custom Callout Styling (Matches Dark Green Cards) --- */
+div.callout-note {
+  background-color: #FAF9F6 !important;
+  border: 1px solid #3a5a50 !important;
+  border-left: 4px solid #5A8F7B !important; /* Sage green accent bar */
+  border-radius: 8px !important;
+  color: #3a5a50 !important;
+}
+
+div.callout-note .callout-header {
+  background-color: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+  padding-bottom: 0.5rem !important;
+}
+
+div.callout-note .callout-title {
+  color: #3a5a50 !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+}
+
+div.callout-note .callout-body,
+div.callout-note p {
+  color: #3a5a50 !important;
+}
+
+/* Link styling inside the dark callout box */
+div.callout-note a {
+  color: #C87D55 !important; /* Light sage link color for high contrast */
+  text-decoration: underline;
+}
+
+div.callout-note a:hover {
+  color: #ffffff !important;
+}
