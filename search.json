@@ -119,6 +119,34 @@
     "text": "Skills, Certifications & Languages\n\n\nComputational skills\n\nStatistics & modeling:\n\nR (Bayesian hierarchical modeling, brms)\nTranscriptomics (DGE using limma/voom)\nAutomated computer vision workflows (YOLO)\n\nWorkflows & clusters:\n\nGit/GitHub\nReproducible research (Quarto/RMarkdown)\nBash HPC environments\n\n\n\n\nCertifications & Languages\n\nCertifications:\n\nSeafarers Certificate (Fit for work at sea, until 2028)\nPADI Advanced Open Water Divers certificate\nDriver’s License (B & A2)\n\nLanguages:\n\nDanish & English: Native / Fluent\nGerman: Intermediate\nSpanish & Italian: Beginner"
   },
   {
+    "objectID": "project_descriptions/PEP.html",
+    "href": "project_descriptions/PEP.html",
+    "title": "Recognizing and marshalling the pre-publication error correction potential of open data for more reproducible science",
+    "section": "",
+    "text": "← Back to Projects"
+  },
+  {
+    "objectID": "project_descriptions/PEP.html#behind-the-scenes",
+    "href": "project_descriptions/PEP.html#behind-the-scenes",
+    "title": "Recognizing and marshalling the pre-publication error correction potential of open data for more reproducible science",
+    "section": "Behind the scenes",
+    "text": "Behind the scenes\nThis project arose from a journal club at Bielefeld University discussing the paper by I. Berberi & D.G. Roche https://doi.org/10.1038/s41559-022-01879-9. The original paper aimed to evaluate whether journals’ mandatory open data policies increase the potential for error correction. Berberi & Roche concluded that there was “no evidence that mandatory open data policies increase error correction.\nTo this, R.C. Chen and I raised the point that by counting error corrections and retractions after publication, the original paper overlooked what may be the most important aspect of open data policies: their potential to facilitate error correction before publication."
+  },
+  {
+    "objectID": "project_descriptions/PEP.html#key-takeaways",
+    "href": "project_descriptions/PEP.html#key-takeaways",
+    "title": "Recognizing and marshalling the pre-publication error correction potential of open data for more reproducible science",
+    "section": "Key takeaways",
+    "text": "Key takeaways\nPre-submission error correction: Researchers are likely to review their data and code more thoroughly when they know that these materials will be made available for others to inspect.\nPost-submission error correction: Making data and code available during peer review can increase the opportunity to detect and correct errors before publication.\nOverall, this Matters Arising comment emphasizes the potential for open data and code policies to facilitate error correction throughout the publication process, especially pre-publication, thereby improving the reliability of the scientific literature.\n\n\n\n\n\n\n\nNoteCitation & Reference\n\n\n\nIf you reference or build upon this work, please cite the original paper:\nChen, R.S., Berthelsen, A.L., Lamartinière, E.B. et al. Recognizing and marshalling the pre-publication error correction potential of open data for more reproducible science. Nat Ecol Evol 7, 1597–1599 (2023). https://doi.org/10.1038/s41559-023-02152-3"
+  },
+  {
+    "objectID": "Illustrations.html",
+    "href": "Illustrations.html",
+    "title": "Illustrations",
+    "section": "",
+    "text": "I make digital illustrations for posters, presentations and publications!\n\nShip me an email, if you’re looking for a freelance illustrator."
+  },
+  {
     "objectID": "project_descriptions/BIP.html",
     "href": "project_descriptions/BIP.html",
     "title": "Fine-scale spatiotemporal predator–prey interactions in an Antarctic fur seal colony",
@@ -145,13 +173,6 @@
     "title": "Fine-scale spatiotemporal predator–prey interactions in an Antarctic fur seal colony",
     "section": "Key takeaways",
     "text": "Key takeaways\nAutomated accuracy: Detections closely matched established phenology, proving that remote time-lapse setups can reliably monitor remote wildlife colonies.\nSpatial avoidance: Pups actively clustered near other pups and adult females while maintaining distance from avian predators and territorial males.\nThe “Shield” effect: Proximity to adult fur seals of both sexes significantly reduced a pup’s risk of predator proximity. Meanwhile, being close to other pups did not lower predation risk.\nOverall, this project emphasizes how remote observation can unlock insights into wildlife behaviour without disturbing sensitive natural habitats.\n\n\n\n\n\n\n\nNoteCitation & Reference\n\n\n\nIf you reference or build upon this work, please cite the original paper:\nAne Liv Berthelsen, Johannes Bartl, Alexander Winterl, Cameron Fox-Clarke, Jaume Forcada, Rebecca Nagel, Ben Fabry, Joseph Ivan Hoffman; Fine-scale spatiotemporal predator–prey interactions in an Antarctic fur seal colony. R. Soc. Open Sci. 1 May 2026; 13 (5): 250931. https://doi.org/10.1098/rsos.250931"
-  },
-  {
-    "objectID": "Illustrations.html",
-    "href": "Illustrations.html",
-    "title": "Illustrations",
-    "section": "",
-    "text": "I make digital illustrations for posters, presentations and publications!\n\nShip me an email, if you’re looking for a freelance illustrator."
   },
   {
     "objectID": "Projects.html",
